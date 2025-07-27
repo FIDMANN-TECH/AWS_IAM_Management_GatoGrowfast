@@ -70,6 +70,10 @@ Tested Denied Access:
 
 Tried accessing IAM and Billing → received "Not authorized" errors
 
+## Enabled MFA for IAM Users
+Enabled Multi-Factor Authentication (MFA) for all users.
+Used virtual MFA apps (e.g., Google Authenticator).
+
 ##  Reflections and Challenges
 🔐 IAM Insights
 IAM is the backbone of AWS security, enabling fine-grained access to AWS services.
@@ -114,3 +118,6 @@ This project successfully demonstrated the creation, assignment, and testing of 
 ![ade_launched_ec2](./img/16_ade_launched_ec2.png)
 ![ade_created_s3](./img/17_ade_created_s3.png)
 ![ade_access_IAM_DENIED](./img/18_ade_IAM_DENIED.png)
+![ADE_MFA_enabled](./img/19_ADE_MFA_enabled.png)
+![ERIC_MFA_enabled](./img/20_ERIC_MFA_enabled.png)
+![JACK_MFA_enabled](./img/21_JACK_MFA_enabled.png)
