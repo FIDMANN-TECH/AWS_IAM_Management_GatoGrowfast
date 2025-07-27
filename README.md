@@ -94,3 +94,23 @@ Attempting access outside user scope (IAM, Billing) was useful in understanding 
 
 ## ✅ Conclusion
 This project successfully demonstrated the creation, assignment, and testing of IAM policies for individual users and groups. Verification steps confirmed real access boundaries and highlighted the importance of precision and testing in IAM configuration.
+
+## Below are screenshots of workflow:
+![policy_Eric](./img/01_policy_for_eric.png)
+![created_Eric_attached_policy](./img/02_eric_usr_attaced_policy.png)
+![created_development-team](./img/03_development_group.png)
+![created_Jack_usr](./img/04_jack_usr.png)
+![created_ade_usr](./img/05_ade_usr.png)
+![EC2+S3_policy_created](./img/06_policy_devteamfullec2s3access.png)
+![attached_policy_group](./img/07_policy_devteamfullec2s3access_group.png)
+![loggin_changed_passwrd_eric](./img/08_eric_passwrd_changed.png)
+![eric_launched_ec2](./img/09_eric_launched_ec2.png)
+![eric_create_s3_DENIED](./img/10_eric_s3_DENIED.png)
+![loggin_changed_passwrd_jack](./img/11_jack_passwrd_changed.png)
+![jack_launched_ec2](./img/12_jack_launched_ec2.png)
+![jack_created_s3](./img/13_jack_created_s3.png)
+![jack_access-billing_DENIED](./img/14_jack_billing_access_DENIED.png)
+![loggin_changed_passwrd_ade](./img/15_ade_passwrd_changed.png)
+![ade_launched_ec2](./img/16_ade_launched_ec2.png)
+![ade_created_s3](./img/17_ade_created_s3.png)
+![ade_access_IAM_DENIED](./img/18_ade_IAM_DENIED.png)
